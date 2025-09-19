@@ -1,0 +1,52 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+*.db-journal
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+*.code-workspace
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.ico
+*.svg
+*.webp
+*.tiff
+
+# Keep all Python files
+!*.py
+
+# Keep specific directories
+!database/
+!ml_modules/
+!templates/
+!static/
+
+# Keep configuration files
+!requirements.txt
+!README.md
+!.gitignore
+
+# Exclude sensitive files if any
+config.ini
+.env
+
+images/
