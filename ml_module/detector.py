@@ -12,10 +12,10 @@ logger = logging.getLogger(__name__)
 
 
 class FaceDetector:
-    """Face detection and preprocessing using MTCNN."""
+    
     
     def __init__(self):
-        """Initialize MTCNN detector."""
+        
         try:
             self.detector = MTCNN()
             logger.info("MTCNN face detector initialized successfully")
